@@ -6,6 +6,8 @@ import br.com.rbribeiro.microservice.statelessauthapi.core.service.AuthService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
+
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/auth")
@@ -22,4 +24,5 @@ public class AuthController {
     public TokenDTO validateToken(@RequestHeader String accessToken) {
         return authService.validateToken(accessToken);
     }
+
 }
