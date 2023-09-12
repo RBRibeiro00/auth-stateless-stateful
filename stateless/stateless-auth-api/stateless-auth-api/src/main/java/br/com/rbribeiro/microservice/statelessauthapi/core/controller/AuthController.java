@@ -19,7 +19,7 @@ public class AuthController {
     }
 
     @PostMapping("token/validate")
-    public TokenDTO login(@RequestHeader String accessToken) {
-        return authService.validadeToken(accessToken);
+    public TokenDTO validateToken(@RequestHeader String accessToken) {
+        return authService.validateToken(accessToken);
     }
 }
