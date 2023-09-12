@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/stateless.iml" filepath="$PROJECT_DIR$/.idea/stateless.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stateless-any-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/stateless-any-api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/stateless-auth-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/stateless-auth-api.main.iml" />
     </modules>
   </component>
