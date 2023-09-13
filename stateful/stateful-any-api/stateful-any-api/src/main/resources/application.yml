@@ -1,2 +1,6 @@
 server:
   port: ${PORT:8083}
+
+app:
+  client:
+    base-url: ${STATEFUL_AUTH_BASE_URL:http://localhost:8082}
